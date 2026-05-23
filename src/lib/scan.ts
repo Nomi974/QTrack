@@ -83,7 +83,7 @@ function deriveStatus(args: {
 
   // Plain scan / gateway pass: derive from location, but preserve special states
   if (previous === "DISPOSED") return previous;
-  if (previous === "DAMAGED" && conditionAfter && conditionAfter !== "BROKEN") {
+  if (previous === "DAMAGED" && conditionAfter) {
     // Repair: scanned with non-broken condition → back to circulation
     return newLocationType === "STORAGE" ? "IN_STORAGE" : "IN_USE";
   }
