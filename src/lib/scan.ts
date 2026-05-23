@@ -54,6 +54,52 @@ const CONDITION_RANK: Record<Condition, number> = {
  * Decide the asset's new status based on the event and location context.
  * Rules favour caller-provided overrides; otherwise derive sensibly.
  */
+// function deriveStatus(args: {
+//   previous: AssetStatus;
+//   eventType: AssetEventType;
+//   newLocationType: string | null;
+//   conditionAfter: Condition | null | undefined;
+//   statusOverride: AssetStatus | null | undefined;
+//   isFixed: boolean;
+//   hasOpenAllocation: boolean;
+// }): AssetStatus {
+//   const { previous, eventType, newLocationType, conditionAfter, statusOverride, isFixed, hasOpenAllocation } = args;
+
+//   if (statusOverride) return statusOverride;
+
+//   // Fixed items always stay IN_USE (they don't move under normal rules)
+//   if (isFixed && eventType !== "DISPOSAL" && eventType !== "MAINTENANCE") return "IN_USE";
+
+//   // Disposal is terminal
+//   if (eventType === "DISPOSAL") return "DISPOSED";
+
+//   // Damage trumps everything if condition is BROKEN
+//   if (conditionAfter === "BROKEN") return "DAMAGED";
+
+//   if (eventType === "CHECKOUT") return "AT_EVENT";
+//   if (eventType === "CHECKIN") {
+//     return newLocationType === "STORAGE" ? "IN_STORAGE" : "IN_USE";
+//   }
+
+//   // Plain scan / gateway pass: derive from location, but preserve special states
+//   if (previous === "DISPOSED") return previous;
+//   if (previous === "DAMAGED" && conditionAfter) {
+//     // Repair: scanned with non-broken condition → back to circulation
+//     return newLocationType === "STORAGE" ? "IN_STORAGE" : "IN_USE";
+//   }
+//   if (previous === "MISSING") {
+//     // Reappeared
+//     return newLocationType === "STORAGE" ? "IN_STORAGE" : "IN_USE";
+//   }
+//   if (hasOpenAllocation && eventType !== "CHECKIN") return "AT_EVENT";
+
+//   if (!newLocationType) return previous;
+//   if (newLocationType === "STORAGE") return "IN_STORAGE";
+//   if (newLocationType === "OUTSIDE") return "IN_TRANSIT";
+//   if (newLocationType === "EVENT_SPACE") return hasOpenAllocation ? "AT_EVENT" : "IN_USE";
+//   if (newLocationType === "GATEWAY") return previous; // passing through
+//   return "IN_USE";
+// }
 function deriveStatus(args: {
   previous: AssetStatus;
   eventType: AssetEventType;
@@ -63,44 +109,104 @@ function deriveStatus(args: {
   isFixed: boolean;
   hasOpenAllocation: boolean;
 }): AssetStatus {
-  const { previous, eventType, newLocationType, conditionAfter, statusOverride, isFixed, hasOpenAllocation } = args;
+  const {
+    previous,
+    eventType,
+    newLocationType,
+    conditionAfter,
+    statusOverride,
+    isFixed,
+    hasOpenAllocation,
+  } = args;
 
+  // Explicit override always wins
   if (statusOverride) return statusOverride;
 
-  // Fixed items always stay IN_USE (they don't move under normal rules)
-  if (isFixed && eventType !== "DISPOSAL" && eventType !== "MAINTENANCE") return "IN_USE";
+  // Fixed assets normally remain in use unless explicitly disposed/maintained
+  if (
+    isFixed &&
+    eventType !== "DISPOSAL" &&
+    eventType !== "MAINTENANCE"
+  ) {
+    return "IN_USE";
+  }
 
   // Disposal is terminal
-  if (eventType === "DISPOSAL") return "DISPOSED";
+  if (eventType === "DISPOSAL") {
+    return "DISPOSED";
+  }
 
-  // Damage trumps everything if condition is BROKEN
-  if (conditionAfter === "BROKEN") return "DAMAGED";
+  // Broken condition always marks asset as damaged
+  if (conditionAfter === "BROKEN") {
+    return "DAMAGED";
+  }
 
-  if (eventType === "CHECKOUT") return "AT_EVENT";
+  // Explicit checkout/checkin flows
+  if (eventType === "CHECKOUT") {
+    return "AT_EVENT";
+  }
+
   if (eventType === "CHECKIN") {
-    return newLocationType === "STORAGE" ? "IN_STORAGE" : "IN_USE";
+    return newLocationType === "STORAGE"
+      ? "IN_STORAGE"
+      : "IN_USE";
   }
 
-  // Plain scan / gateway pass: derive from location, but preserve special states
-  if (previous === "DISPOSED") return previous;
-  if (previous === "DAMAGED" && conditionAfter) {
-    // Repair: scanned with non-broken condition → back to circulation
-    return newLocationType === "STORAGE" ? "IN_STORAGE" : "IN_USE";
+  // Preserve disposed assets permanently
+  if (previous === "DISPOSED") {
+    return previous;
   }
+
+  // Repair flow:
+  // previously damaged but now scanned with a non-broken condition
+  if (
+    previous === "DAMAGED" &&
+    conditionAfter &&
+    conditionAfter !== "BROKEN"
+  ) {
+    return newLocationType === "STORAGE"
+      ? "IN_STORAGE"
+      : "IN_USE";
+  }
+
+  // Missing asset reappeared
   if (previous === "MISSING") {
-    // Reappeared
-    return newLocationType === "STORAGE" ? "IN_STORAGE" : "IN_USE";
+    return newLocationType === "STORAGE"
+      ? "IN_STORAGE"
+      : "IN_USE";
   }
-  if (hasOpenAllocation && eventType !== "CHECKIN") return "AT_EVENT";
 
-  if (!newLocationType) return previous;
-  if (newLocationType === "STORAGE") return "IN_STORAGE";
-  if (newLocationType === "OUTSIDE") return "IN_TRANSIT";
-  if (newLocationType === "EVENT_SPACE") return hasOpenAllocation ? "AT_EVENT" : "IN_USE";
-  if (newLocationType === "GATEWAY") return previous; // passing through
+  // Allocated assets remain at event unless explicitly checked in
+  if (hasOpenAllocation && eventType !== "CHECKIN") {
+    return "AT_EVENT";
+  }
+
+  // No location information → preserve previous state
+  if (!newLocationType) {
+    return previous;
+  }
+
+  // Derive from location type
+  if (newLocationType === "STORAGE") {
+    return "IN_STORAGE";
+  }
+
+  if (newLocationType === "OUTSIDE") {
+    return "IN_TRANSIT";
+  }
+
+  if (newLocationType === "EVENT_SPACE") {
+    return hasOpenAllocation ? "AT_EVENT" : "IN_USE";
+  }
+
+  // Gateway scans do not change status
+  if (newLocationType === "GATEWAY") {
+    return previous;
+  }
+
+  // Default fallback
   return "IN_USE";
 }
-
 export async function recordScan(input: ScanInput): Promise<ScanResult> {
   const eventType: AssetEventType = input.eventType ?? "SCAN";
 
