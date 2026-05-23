@@ -1,26 +1,101 @@
 @import "tailwindcss";
 
+/* Drive `dark:` Tailwind variants from our data-theme attribute */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Light is the default theme — matches the base44 inspiration */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-bg: #f6f7f9;
+  --color-panel: #ffffff;
+  --color-panel-2: #f3f4f6;
+  --color-border: #e5e7eb;
+  --color-fg: #111827;
+  --color-muted: #6b7280;
+  --color-accent: #7c3aed;
+  --color-accent-2: #a78bfa;
+  --color-good: #047857;
+  --color-warn: #b45309;
+  --color-bad: #b91c1c;
+  --shadow-card: 0 1px 2px rgba(17, 24, 39, 0.04), 0 1px 3px rgba(17, 24, 39, 0.06);
 }
 
+[data-theme="dark"] {
+  --color-bg: #07080b;
+  --color-panel: #0f1117;
+  --color-panel-2: #151823;
+  --color-border: #20232e;
+  --color-fg: #e8eaf0;
+  --color-muted: #8a8fa3;
+  --color-accent: #a78bfa;
+  --color-accent-2: #c4b5fd;
+  --color-good: #6ee7b7;
+  --color-warn: #fbbf24;
+  --color-bad: #fb7185;
+  --shadow-card: none;
+}
+
+/* Expose the variables as Tailwind tokens (inline = reference, don't materialize) */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--color-bg);
+  --color-panel: var(--color-panel);
+  --color-panel-2: var(--color-panel-2);
+  --color-border: var(--color-border);
+  --color-fg: var(--color-fg);
+  --color-muted: var(--color-muted);
+  --color-accent: var(--color-accent);
+  --color-accent-2: var(--color-accent-2);
+  --color-good: var(--color-good);
+  --color-warn: var(--color-warn);
+  --color-bad: var(--color-bad);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "JetBrains Mono", Menlo, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html, body {
+  height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Soft accent backdrop — only on dark, removed in light to keep the canvas clean */
+[data-theme="dark"] body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(800px 500px at 80% -10%, rgba(167, 139, 250, 0.10), transparent 60%),
+    radial-gradient(700px 400px at -10% 110%, rgba(196, 181, 253, 0.08), transparent 60%);
+  pointer-events: none;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-muted); }
+
+/* pulse animation for live pins */
+@keyframes qpulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50%      { transform: scale(1.25); opacity: 0.6; }
+}
+.q-pulse { animation: qpulse 1.4s ease-in-out infinite; }
+
+/* skeleton shimmer for loading.tsx */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.q-skeleton {
+  background: linear-gradient(90deg,
+    var(--color-panel) 0%,
+    var(--color-panel-2) 50%,
+    var(--color-panel) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
 }

@@ -1,0 +1,2964 @@
+
+> qtrack@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.11.26.173:3000
+- Environments: .env
+✓ Ready in 1299ms
+
+○ Compiling / ...
+ GET / 200 in 7.2s (next.js: 5.8s, application-code: 1445ms)
+ GET /api/alerts/count 200 in 3.3s (next.js: 3.2s, application-code: 36ms)
+ GET /finance 200 in 4.9s (next.js: 1908ms, application-code: 3.0s)
+ GET /events 200 in 6.4s (next.js: 2.8s, application-code: 3.7s)
+ GET /simulator 200 in 6.2s (next.js: 2.7s, application-code: 3.5s)
+ GET /facilities 200 in 6.5s (next.js: 3.2s, application-code: 3.3s)
+ GET /alerts 200 in 6.4s (next.js: 3.2s, application-code: 3.1s)
+ GET /assets 200 in 6.8s (next.js: 2.7s, application-code: 4.1s)
+ GET /scan 200 in 6.7s (next.js: 3.5s, application-code: 3.2s)
+ GET / 200 in 629ms (next.js: 44ms, application-code: 585ms)
+ GET /api/alerts/count 200 in 34ms (next.js: 10ms, application-code: 25ms)
+ GET /api/alerts/count 200 in 24ms (next.js: 8ms, application-code: 16ms)
+ GET /api/alerts/count 200 in 13ms (next.js: 4ms, application-code: 9ms)
+ GET /api/alerts/count 200 in 14ms (next.js: 4ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 34ms (next.js: 12ms, application-code: 22ms)
+ GET /api/stream 200 in 41s (next.js: 330ms, application-code: 40s)
+ GET /api/stream 200 in 41s (next.js: 297ms, application-code: 40s)
+ GET / 200 in 611ms (next.js: 16ms, application-code: 595ms)
+ GET /api/alerts/count 200 in 28ms (next.js: 9ms, application-code: 18ms)
+ GET /api/alerts/count 200 in 25ms (next.js: 9ms, application-code: 16ms)
+ GET / 200 in 42ms (next.js: 15ms, application-code: 27ms)
+ GET / 200 in 264ms (next.js: 10ms, application-code: 254ms)
+ GET /facilities 200 in 247ms (next.js: 11ms, application-code: 236ms)
+ GET /api/alerts/count 200 in 25ms (next.js: 7ms, application-code: 18ms)
+ GET /api/alerts/count 200 in 20ms (next.js: 6ms, application-code: 14ms)
+ GET /events 200 in 182ms (next.js: 13ms, application-code: 168ms)
+ GET /api/stream 200 in 16.1s (next.js: 137ms, application-code: 16.0s)
+ GET /api/alerts/count 200 in 32ms (next.js: 12ms, application-code: 21ms)
+ GET /events/new 200 in 3.0s (next.js: 2.7s, application-code: 298ms)
+ GET /events/new 200 in 171ms (next.js: 11ms, application-code: 160ms)
+ GET /api/alerts/count 200 in 34ms (next.js: 7ms, application-code: 28ms)
+ GET /api/alerts/count 200 in 33ms (next.js: 11ms, application-code: 21ms)
+ GET /api/alerts/count 200 in 44ms (next.js: 11ms, application-code: 33ms)
+ GET /api/alerts/count 200 in 89ms (next.js: 60ms, application-code: 29ms)
+ GET /api/alerts/count 200 in 23ms (next.js: 6ms, application-code: 17ms)
+ POST /events/new 200 in 353ms (next.js: 12ms, application-code: 341ms)
+  └─ ƒ createEventRequest({}) in 129ms src/app/actions.ts
+ GET /api/alerts/count 200 in 42ms (next.js: 14ms, application-code: 28ms)
+○ Compiling /events/[id] ...
+ GET /events/cmpi9i0i0000094cbt624sou6 200 in 6.6s (next.js: 6.4s, application-code: 184ms)
+ GET /events/cmpi9i0i0000094cbt624sou6 200 in 199ms (next.js: 38ms, application-code: 160ms)
+ GET /assets 200 in 1016ms (next.js: 18ms, application-code: 998ms)
+ GET /api/alerts/count 200 in 40ms (next.js: 12ms, application-code: 28ms)
+ GET /api/alerts/count 200 in 19ms (next.js: 6ms, application-code: 12ms)
+ GET /alerts 200 in 199ms (next.js: 32ms, application-code: 167ms)
+ GET /events 200 in 153ms (next.js: 13ms, application-code: 140ms)
+ GET /events/cmpi9i0i0000094cbt624sou6 200 in 198ms (next.js: 29ms, application-code: 169ms)
+ GET /api/alerts/count 200 in 27ms (next.js: 11ms, application-code: 16ms)
+ POST /events/cmpi9i0i0000094cbt624sou6 200 in 372ms (next.js: 36ms, application-code: 336ms)
+  └─ ƒ approveEventRequest({}) in 47ms src/app/actions.ts
+ GET /api/alerts/count 200 in 25ms (next.js: 13ms, application-code: 13ms)
+ GET /api/alerts/count 200 in 41ms (next.js: 29ms, application-code: 12ms)
+ GET /api/alerts/count 200 in 58ms (next.js: 43ms, application-code: 14ms)
+ GET /api/alerts/count 200 in 24ms (next.js: 12ms, application-code: 13ms)
+ GET /api/alerts/count 200 in 39ms (next.js: 27ms, application-code: 12ms)
+ GET /api/alerts/count 200 in 56ms (next.js: 42ms, application-code: 14ms)
+ GET /api/alerts/count 200 in 24ms (next.js: 12ms, application-code: 12ms)
+ GET /api/alerts/count 200 in 38ms (next.js: 26ms, application-code: 12ms)
+ GET /api/alerts/count 200 in 54ms (next.js: 42ms, application-code: 13ms)
+ GET /api/alerts/count 200 in 24ms (next.js: 12ms, application-code: 13ms)
+ GET /api/alerts/count 200 in 22ms (next.js: 11ms, application-code: 11ms)
+ GET /api/alerts/count 200 in 37ms (next.js: 25ms, application-code: 11ms)
+ POST /events/cmpi9i0i0000094cbt624sou6 200 in 1828ms (next.js: 41ms, application-code: 1787ms)
+  └─ ƒ checkoutAllocation({}) in 853ms src/app/actions.ts
+ GET /api/alerts/count 200 in 35ms (next.js: 10ms, application-code: 26ms)
+ GET /api/alerts/count 200 in 51ms (next.js: 40ms, application-code: 11ms)
+ GET /api/alerts/count 200 in 21ms (next.js: 9ms, application-code: 12ms)
+ GET /api/alerts/count 200 in 20ms (next.js: 9ms, application-code: 11ms)
+ GET /api/alerts/count 200 in 35ms (next.js: 23ms, application-code: 11ms)
+ GET /api/alerts/count 200 in 22ms (next.js: 10ms, application-code: 12ms)
+ GET /api/alerts/count 200 in 20ms (next.js: 8ms, application-code: 12ms)
+ POST /events/cmpi9i0i0000094cbt624sou6 200 in 1201ms (next.js: 10ms, application-code: 1191ms)
+  └─ ƒ checkoutAllocation({}) in 222ms src/app/actions.ts
+ GET /api/alerts/count 200 in 30ms (next.js: 13ms, application-code: 16ms)
+ GET /api/alerts/count 200 in 48ms (next.js: 35ms, application-code: 14ms)
+ GET /api/alerts/count 200 in 25ms (next.js: 12ms, application-code: 13ms)
+ GET /api/alerts/count 200 in 38ms (next.js: 27ms, application-code: 11ms)
+ GET /api/alerts/count 200 in 54ms (next.js: 42ms, application-code: 12ms)
+ GET /api/alerts/count 200 in 29ms (next.js: 14ms, application-code: 15ms)
+ GET /api/alerts/count 200 in 47ms (next.js: 33ms, application-code: 14ms)
+ GET /api/alerts/count 200 in 65ms (next.js: 50ms, application-code: 15ms)
+ GET /api/alerts/count 200 in 25ms (next.js: 9ms, application-code: 16ms)
+ POST /events/cmpi9i0i0000094cbt624sou6 200 in 796ms (next.js: 34ms, application-code: 762ms)
+  └─ ƒ checkoutAllocation({}) in 263ms src/app/actions.ts
+ GET /api/alerts/count 200 in 20ms (next.js: 7ms, application-code: 13ms)
+ GET /api/alerts/count 200 in 30ms (next.js: 15ms, application-code: 15ms)
+ GET /api/alerts/count 200 in 46ms (next.js: 33ms, application-code: 14ms)
+ GET /api/alerts/count 200 in 61ms (next.js: 49ms, application-code: 12ms)
+ GET /api/alerts/count 200 in 21ms (next.js: 9ms, application-code: 12ms)
+ GET /api/alerts/count 200 in 38ms (next.js: 24ms, application-code: 14ms)
+ GET /api/alerts/count 200 in 53ms (next.js: 41ms, application-code: 13ms)
+ GET /api/alerts/count 200 in 31ms (next.js: 14ms, application-code: 16ms)
+ GET /api/alerts/count 200 in 46ms (next.js: 33ms, application-code: 13ms)
+ GET /api/alerts/count 200 in 65ms (next.js: 50ms, application-code: 15ms)
+ POST /events/cmpi9i0i0000094cbt624sou6 200 in 644ms (next.js: 34ms, application-code: 609ms)
+  └─ ƒ returnAllocation({}) in 210ms src/app/actions.ts
+ GET /api/alerts/count 200 in 20ms (next.js: 6ms, application-code: 15ms)
+ GET / 200 in 283ms (next.js: 11ms, application-code: 272ms)
+ GET /events 200 in 114ms (next.js: 15ms, application-code: 100ms)
+ GET / 200 in 212ms (next.js: 17ms, application-code: 195ms)
+ GET /api/alerts/count 200 in 39ms (next.js: 15ms, application-code: 24ms)
+ GET /api/alerts/count 200 in 33ms (next.js: 16ms, application-code: 17ms)
+ GET /facilities 200 in 181ms (next.js: 9ms, application-code: 172ms)
+ GET /api/alerts/count 200 in 40ms (next.js: 5ms, application-code: 35ms)
+ GET /api/alerts/count 200 in 19ms (next.js: 6ms, application-code: 14ms)
+ GET /api/alerts/count 200 in 23ms (next.js: 7ms, application-code: 16ms)
+ GET /assets 200 in 895ms (next.js: 10ms, application-code: 885ms)
+ GET /api/stream 200 in 31.8s (next.js: 11ms, application-code: 31.7s)
+ GET /assets?q=&status=IN_USE&fixed= 200 in 2.5s (next.js: 17ms, application-code: 2.4s)
+ GET /api/stream 200 in 4.0min (next.js: 56ms, application-code: 4.0min)
+ GET /api/stream 200 in 4.0min (next.js: 36ms, application-code: 4.0min)
+ GET /api/alerts/count 200 in 33ms (next.js: 17ms, application-code: 16ms)
+ GET /api/alerts/count 200 in 21ms (next.js: 7ms, application-code: 14ms)
+ GET /finance 200 in 191ms (next.js: 16ms, application-code: 175ms)
+ GET /api/alerts/count 200 in 131ms (next.js: 103ms, application-code: 28ms)
+ GET /assets?q=Office+Chair 200 in 346ms (next.js: 13ms, application-code: 333ms)
+ GET /assets 200 in 28ms (next.js: 13ms, application-code: 15ms)
+ GET /assets 200 in 1255ms (next.js: 16ms, application-code: 1239ms)
+ GET /alerts 200 in 139ms (next.js: 14ms, application-code: 125ms)
+ GET /api/alerts/count 200 in 23ms (next.js: 10ms, application-code: 14ms)
+ POST /alerts 200 in 178ms (next.js: 48ms, application-code: 131ms)
+  └─ ƒ runSweep() in 27ms src/app/actions.ts
+ POST /alerts 200 in 189ms (next.js: 21ms, application-code: 169ms)
+  └─ ƒ runSweep() in 19ms src/app/actions.ts
+ GET /api/alerts/count 200 in 127ms (next.js: 37ms, application-code: 89ms)
+ GET /api/stream 200 in 42s (next.js: 37ms, application-code: 42s)
+ GET /api/stream 200 in 42s (next.js: 54ms, application-code: 42s)
+ GET /api/alerts/count 200 in 33ms (next.js: 10ms, application-code: 23ms)
+ GET /api/alerts/count 200 in 26ms (next.js: 8ms, application-code: 19ms)
+ GET /api/alerts/count 200 in 32ms (next.js: 9ms, application-code: 23ms)
+ GET /api/alerts/count 200 in 14ms (next.js: 4ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 13ms (next.js: 4ms, application-code: 9ms)
+ GET /api/alerts/count 200 in 14ms (next.js: 4ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 14ms (next.js: 4ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 13ms (next.js: 4ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 12ms (next.js: 4ms, application-code: 8ms)
+ GET /api/alerts/count 200 in 13ms (next.js: 4ms, application-code: 9ms)
+ GET /api/alerts/count 200 in 12ms (next.js: 4ms, application-code: 8ms)
+ GET /api/alerts/count 200 in 15ms (next.js: 5ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 11ms (next.js: 4ms, application-code: 7ms)
+ GET /api/alerts/count 200 in 12ms (next.js: 4ms, application-code: 7ms)
+ GET /api/alerts/count 200 in 12ms (next.js: 5ms, application-code: 7ms)
+ GET /api/alerts/count 200 in 10ms (next.js: 4ms, application-code: 7ms)
+ GET /api/alerts/count 200 in 11ms (next.js: 4ms, application-code: 7ms)
+ GET /api/alerts/count 200 in 11ms (next.js: 3ms, application-code: 8ms)
+ GET /api/alerts/count 200 in 11ms (next.js: 4ms, application-code: 7ms)
+ GET /api/alerts/count 200 in 10ms (next.js: 3ms, application-code: 7ms)
+ GET /api/alerts/count 200 in 12ms (next.js: 5ms, application-code: 7ms)
+ GET /api/alerts/count 200 in 15ms (next.js: 6ms, application-code: 9ms)
+ GET /api/alerts/count 200 in 11ms (next.js: 4ms, application-code: 7ms)
+ GET /api/alerts/count 200 in 12ms (next.js: 4ms, application-code: 8ms)
+ GET /api/alerts/count 200 in 12ms (next.js: 4ms, application-code: 8ms)
+ GET /api/alerts/count 200 in 14ms (next.js: 5ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 13ms (next.js: 5ms, application-code: 8ms)
+ GET /api/alerts/count 200 in 16ms (next.js: 6ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 15ms (next.js: 5ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 16ms (next.js: 4ms, application-code: 12ms)
+ GET /api/alerts/count 200 in 13ms (next.js: 4ms, application-code: 9ms)
+ GET /api/alerts/count 200 in 13ms (next.js: 4ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 14ms (next.js: 4ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 16ms (next.js: 4ms, application-code: 11ms)
+ GET /api/alerts/count 200 in 14ms (next.js: 4ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 14ms (next.js: 4ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 14ms (next.js: 4ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 16ms (next.js: 5ms, application-code: 11ms)
+ GET /api/alerts/count 200 in 16ms (next.js: 6ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 16ms (next.js: 4ms, application-code: 12ms)
+ GET /api/alerts/count 200 in 16ms (next.js: 6ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 13ms (next.js: 4ms, application-code: 9ms)
+ GET /api/alerts/count 200 in 16ms (next.js: 6ms, application-code: 10ms)
+ GET /api/alerts/count 200 in 13ms (next.js: 4ms, application-code: 9ms)
+ GET /api/alerts/count 200 in 13ms (next.js: 4ms, application-code: 9ms)
+ GET /api/alerts/count 200 in 10ms (next.js: 3ms, application-code: 7ms)
+ GET /api/alerts/count 200 in 8ms (next.js: 3ms, application-code: 5ms)
+ GET /api/alerts/count 200 in 17ms (next.js: 4ms, application-code: 12ms)
+ GET /api/alerts/count 200 in 16ms (next.js: 5ms, application-code: 11ms)
+ GET /api/alerts/count 200 in 16ms (next.js: 5ms, application-code: 11ms)
+ GET /api/alerts/count 200 in 12ms (next.js: 5ms, application-code: 8ms)
+ GET /api/alerts/count 200 in 12ms (next.js: 4ms, application-code: 8ms)
+ GET /api/alerts/count 200 in 14ms (next.js: 3ms, application-code: 11ms)
+ GET /api/alerts/count 200 in 19ms (next.js: 6ms, application-code: 13ms)
+ GET /api/alerts/count 200 in 17ms (next.js: 6ms, application-code: 11ms)
+ GET /api/alerts/count 200 in 15ms (next.js: 4ms, application-code: 10ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/scan/page.tsx:2:1
+Module not found: Can't resolve '@/components/ScanWorkflow'
+  [90m1 |[0m [36mimport[0m { [33mCard[0m } [36mfrom[0m [32m"@/components/Card"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mScanWorkflow[0m } [36mfrom[0m [32m"@/components/ScanWorkflow"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m [36mimport[0m { prisma } [36mfrom[0m [32m"@/lib/prisma"[0m;
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mScanPage[0m({
+
+Import map: aliased to relative './src/components/ScanWorkflow' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/scan/page.tsx:2:1
+Module not found: Can't resolve '@/components/ScanWorkflow'
+  [90m1 |[0m [36mimport[0m { [33mCard[0m } [36mfrom[0m [32m"@/components/Card"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mScanWorkflow[0m } [36mfrom[0m [32m"@/components/ScanWorkflow"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m [36mimport[0m { prisma } [36mfrom[0m [32m"@/lib/prisma"[0m;
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mScanPage[0m({
+
+Import map: aliased to relative './src/components/ScanWorkflow' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/actions.ts:6:1
+Module not found: Can't resolve '@/lib/anomaly'
+  [90m4 |[0m [36mimport[0m { recordScan } [36mfrom[0m [32m"@/lib/scan"[0m;
+  [90m5 |[0m [36mimport[0m { publish } [36mfrom[0m [32m"@/lib/events-bus"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m { runAnomalySweep } [36mfrom[0m [32m"@/lib/anomaly"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m { revalidatePath } [36mfrom[0m [32m"next/cache"[0m;
+  [90m8 |[0m
+  [90m9 |[0m [90m// ─── Event Requests ──────────────────────[0m────────────────────────────────
+
+Import map: aliased to relative './src/lib/anomaly' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/events/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/actions.ts:6:1
+Module not found: Can't resolve '@/lib/anomaly'
+  [90m4 |[0m [36mimport[0m { recordScan } [36mfrom[0m [32m"@/lib/scan"[0m;
+  [90m5 |[0m [36mimport[0m { publish } [36mfrom[0m [32m"@/lib/events-bus"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m { runAnomalySweep } [36mfrom[0m [32m"@/lib/anomaly"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m { revalidatePath } [36mfrom[0m [32m"next/cache"[0m;
+  [90m8 |[0m
+  [90m9 |[0m [90m// ─── Event Requests ──────────────────────[0m────────────────────────────────
+
+Import map: aliased to relative './src/lib/anomaly' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/events/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/events/new/page.tsx:2:1
+Module not found: Can't resolve '@/components/NewEventRequestForm'
+  [90m1 |[0m [36mimport[0m { [33mCard[0m } [36mfrom[0m [32m"@/components/Card"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mNewEventRequestForm[0m } [36mfrom[0m [32m"@/components/NewEventRequestForm"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m [36mimport[0m { prisma } [36mfrom[0m [32m"@/lib/prisma"[0m;
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mNewEventRequestPage[0m() {
+
+Import map: aliased to relative './src/components/NewEventRequestForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/events/new/page.tsx:2:1
+Module not found: Can't resolve '@/components/NewEventRequestForm'
+  [90m1 |[0m [36mimport[0m { [33mCard[0m } [36mfrom[0m [32m"@/components/Card"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mNewEventRequestForm[0m } [36mfrom[0m [32m"@/components/NewEventRequestForm"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m [36mimport[0m { prisma } [36mfrom[0m [32m"@/lib/prisma"[0m;
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mNewEventRequestPage[0m() {
+
+Import map: aliased to relative './src/components/NewEventRequestForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 1379ms
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 3.9s (next.js: 3.2s, application-code: 684ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 127ms (next.js: 35ms, application-code: 92ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 293ms (next.js: 235ms, application-code: 57ms)
+ GET /alerts 500 in 293ms (next.js: 235ms, application-code: 58ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 67ms (next.js: 37ms, application-code: 30ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 54ms (next.js: 31ms, application-code: 23ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 71ms (next.js: 38ms, application-code: 33ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 55ms (next.js: 30ms, application-code: 25ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 188ms (next.js: 152ms, application-code: 36ms)
+ GET /alerts 500 in 189ms (next.js: 152ms, application-code: 36ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 71ms (next.js: 31ms, application-code: 40ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 43ms (next.js: 20ms, application-code: 23ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 62ms (next.js: 32ms, application-code: 30ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 53ms (next.js: 32ms, application-code: 22ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 80ms (next.js: 29ms, application-code: 51ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 83ms (next.js: 44ms, application-code: 40ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 143ms (next.js: 123ms, application-code: 21ms)
+ GET /alerts 500 in 144ms (next.js: 123ms, application-code: 21ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 53ms (next.js: 29ms, application-code: 24ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 90ms (next.js: 30ms, application-code: 59ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 74ms (next.js: 33ms, application-code: 42ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 75ms (next.js: 41ms, application-code: 34ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 133ms (next.js: 108ms, application-code: 24ms)
+ GET /alerts 500 in 133ms (next.js: 108ms, application-code: 25ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 78ms (next.js: 31ms, application-code: 47ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 71ms (next.js: 51ms, application-code: 20ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 46ms (next.js: 26ms, application-code: 20ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 72ms (next.js: 30ms, application-code: 42ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 64ms (next.js: 31ms, application-code: 33ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 53ms (next.js: 24ms, application-code: 29ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 157ms (next.js: 124ms, application-code: 33ms)
+ GET /alerts 500 in 157ms (next.js: 124ms, application-code: 33ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 45ms (next.js: 19ms, application-code: 26ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 57ms (next.js: 34ms, application-code: 23ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 106ms (next.js: 60ms, application-code: 46ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 97ms (next.js: 34ms, application-code: 63ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 86ms (next.js: 36ms, application-code: 50ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 83ms (next.js: 33ms, application-code: 50ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 88ms (next.js: 38ms, application-code: 50ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 83ms (next.js: 22ms, application-code: 61ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 238ms (next.js: 191ms, application-code: 47ms)
+ GET /alerts 500 in 238ms (next.js: 191ms, application-code: 48ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 84ms (next.js: 48ms, application-code: 37ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 136ms (next.js: 42ms, application-code: 95ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 88ms (next.js: 56ms, application-code: 32ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 90ms (next.js: 53ms, application-code: 36ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 67ms (next.js: 40ms, application-code: 26ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 63ms (next.js: 22ms, application-code: 41ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 80ms (next.js: 37ms, application-code: 43ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 112ms (next.js: 42ms, application-code: 70ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 64ms (next.js: 25ms, application-code: 39ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 123ms (next.js: 39ms, application-code: 84ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 80ms (next.js: 38ms, application-code: 42ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 77ms (next.js: 43ms, application-code: 34ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 264ms (next.js: 183ms, application-code: 81ms)
+ GET /alerts 500 in 265ms (next.js: 183ms, application-code: 82ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 53ms (next.js: 19ms, application-code: 34ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 69ms (next.js: 40ms, application-code: 29ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 58ms (next.js: 29ms, application-code: 30ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 223ms (next.js: 182ms, application-code: 41ms)
+ GET /alerts 500 in 223ms (next.js: 182ms, application-code: 41ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 127ms (next.js: 60ms, application-code: 67ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 210ms (next.js: 176ms, application-code: 34ms)
+ GET /alerts 500 in 211ms (next.js: 176ms, application-code: 34ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 118ms (next.js: 40ms, application-code: 77ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 92ms (next.js: 40ms, application-code: 52ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 80ms (next.js: 37ms, application-code: 44ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 111ms (next.js: 53ms, application-code: 58ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 109ms (next.js: 45ms, application-code: 64ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 84ms (next.js: 31ms, application-code: 53ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 63ms (next.js: 33ms, application-code: 30ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 77ms (next.js: 43ms, application-code: 34ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 95ms (next.js: 35ms, application-code: 60ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 167ms (next.js: 125ms, application-code: 42ms)
+ GET /alerts 500 in 167ms (next.js: 125ms, application-code: 42ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 196ms (next.js: 144ms, application-code: 52ms)
+ GET /alerts 500 in 196ms (next.js: 144ms, application-code: 52ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 62ms (next.js: 29ms, application-code: 33ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 75ms (next.js: 31ms, application-code: 44ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 68ms (next.js: 32ms, application-code: 36ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 64ms (next.js: 31ms, application-code: 33ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 91ms (next.js: 36ms, application-code: 55ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 98ms (next.js: 35ms, application-code: 63ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 73ms (next.js: 29ms, application-code: 44ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 67ms (next.js: 36ms, application-code: 31ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 207ms (next.js: 167ms, application-code: 40ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 73ms (next.js: 41ms, application-code: 31ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 114ms (next.js: 42ms, application-code: 71ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 98ms (next.js: 34ms, application-code: 64ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 108ms (next.js: 35ms, application-code: 73ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 125ms (next.js: 53ms, application-code: 72ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 133ms (next.js: 37ms, application-code: 96ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 101ms (next.js: 40ms, application-code: 61ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 61ms (next.js: 27ms, application-code: 34ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 236ms (next.js: 188ms, application-code: 47ms)
+ GET /alerts 500 in 236ms (next.js: 188ms, application-code: 47ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /alerts 500 in 98ms (next.js: 58ms, application-code: 39ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /api/alerts/count 500 in 86ms (next.js: 37ms, application-code: 50ms)
+⨯ ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mLiveDot[0m } [36mfrom[0m [32m"./LiveDot"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mAlertsBell[0m } [36mfrom[0m [32m"./AlertsBell"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mconst[0m tabs = [
+  [90m6 |[0m   { href: [32m"/"[0m,           label: [32m"Overview"[0m },
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /api/alerts/count 500 in 230ms (next.js: 193ms, application-code: 37ms)
+ GET /api/alerts/count 500 in 230ms (next.js: 193ms, application-code: 37ms)
+⨯ ./src/app/events/new/page.tsx:2:1
+Module not found: Can't resolve '@/components/NewEventRequestForm'
+  [90m1 |[0m [36mimport[0m { [33mCard[0m } [36mfrom[0m [32m"@/components/Card"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mNewEventRequestForm[0m } [36mfrom[0m [32m"@/components/NewEventRequestForm"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m [36mimport[0m { prisma } [36mfrom[0m [32m"@/lib/prisma"[0m;
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mNewEventRequestPage[0m() {
+
+Import map: aliased to relative './src/components/NewEventRequestForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/events/new/page.tsx:2:1
+Module not found: Can't resolve '@/components/NewEventRequestForm'
+  [90m1 |[0m [36mimport[0m { [33mCard[0m } [36mfrom[0m [32m"@/components/Card"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mNewEventRequestForm[0m } [36mfrom[0m [32m"@/components/NewEventRequestForm"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m [36mimport[0m { prisma } [36mfrom[0m [32m"@/lib/prisma"[0m;
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mNewEventRequestPage[0m() {
+
+Import map: aliased to relative './src/components/NewEventRequestForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/actions.ts:6:1
+Module not found: Can't resolve '@/lib/anomaly'
+  [90m4 |[0m [36mimport[0m { recordScan } [36mfrom[0m [32m"@/lib/scan"[0m;
+  [90m5 |[0m [36mimport[0m { publish } [36mfrom[0m [32m"@/lib/events-bus"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m { runAnomalySweep } [36mfrom[0m [32m"@/lib/anomaly"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m { revalidatePath } [36mfrom[0m [32m"next/cache"[0m;
+  [90m8 |[0m
+  [90m9 |[0m [90m// ─── Event Requests ──────────────────────[0m────────────────────────────────
+
+Import map: aliased to relative './src/lib/anomaly' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/events/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/actions.ts:6:1
+Module not found: Can't resolve '@/lib/anomaly'
+  [90m4 |[0m [36mimport[0m { recordScan } [36mfrom[0m [32m"@/lib/scan"[0m;
+  [90m5 |[0m [36mimport[0m { publish } [36mfrom[0m [32m"@/lib/events-bus"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m { runAnomalySweep } [36mfrom[0m [32m"@/lib/anomaly"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m { revalidatePath } [36mfrom[0m [32m"next/cache"[0m;
+  [90m8 |[0m
+  [90m9 |[0m [90m// ─── Event Requests ──────────────────────[0m────────────────────────────────
+
+Import map: aliased to relative './src/lib/anomaly' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/events/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/scan/page.tsx:2:1
+Module not found: Can't resolve '@/components/ScanWorkflow'
+  [90m1 |[0m [36mimport[0m { [33mCard[0m } [36mfrom[0m [32m"@/components/Card"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mScanWorkflow[0m } [36mfrom[0m [32m"@/components/ScanWorkflow"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m [36mimport[0m { prisma } [36mfrom[0m [32m"@/lib/prisma"[0m;
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mScanPage[0m({
+
+Import map: aliased to relative './src/components/ScanWorkflow' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/scan/page.tsx:2:1
+Module not found: Can't resolve '@/components/ScanWorkflow'
+  [90m1 |[0m [36mimport[0m { [33mCard[0m } [36mfrom[0m [32m"@/components/Card"[0m;
+[31m[1m>[0m [90m2 |[0m [36mimport[0m { [33mScanWorkflow[0m } [36mfrom[0m [32m"@/components/ScanWorkflow"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m3 |[0m [36mimport[0m { prisma } [36mfrom[0m [32m"@/lib/prisma"[0m;
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36masync[0m [36mfunction[0m [33mScanPage[0m({
+
+Import map: aliased to relative './src/components/ScanWorkflow' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /api/alerts/count 500 in 460ms (next.js: 420ms, application-code: 41ms)
+ GET /api/alerts/count 500 in 564ms (next.js: 216ms, application-code: 348ms)
+ GET /api/alerts/count 500 in 561ms (next.js: 302ms, application-code: 259ms)
+ GET /api/alerts/count 500 in 625ms (next.js: 423ms, application-code: 202ms)
+ GET /api/alerts/count 500 in 567ms (next.js: 421ms, application-code: 145ms)
+ GET /api/alerts/count 500 in 210ms (next.js: 85ms, application-code: 125ms)
+ GET /api/alerts/count 500 in 207ms (next.js: 139ms, application-code: 68ms)
+ GET /api/alerts/count 500 in 330ms (next.js: 193ms, application-code: 137ms)
+ GET /api/alerts/count 500 in 324ms (next.js: 251ms, application-code: 73ms)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /api/alerts/count 500 in 565ms (next.js: 248ms, application-code: 317ms)
+ GET /api/alerts/count 500 in 550ms (next.js: 422ms, application-code: 128ms)
+ GET /api/alerts/count 500 in 555ms (next.js: 504ms, application-code: 51ms)
+ GET /api/alerts/count 500 in 555ms (next.js: 504ms, application-code: 51ms)
+ GET /api/alerts/count 500 in 685ms (next.js: 632ms, application-code: 53ms)
+ GET /api/alerts/count 500 in 685ms (next.js: 632ms, application-code: 53ms)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+SyntaxError: Unexpected non-whitespace character after JSON at position 827 (line 23 column 2)
+    at JSON.parse (<anonymous>)
+ GET /api/alerts/count 500 in 1544ms (next.js: 1250ms, application-code: 294ms)
+ GET /alerts 500 in 1540ms (next.js: 1298ms, application-code: 242ms)
+ GET /api/alerts/count 500 in 398ms (next.js: 145ms, application-code: 254ms)
+[browser] ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  1 | import Link from "next/link";
+  2 | import { LiveDot } from "./LiveDot";
+> 3 | import { AlertsBell } from "./AlertsBell";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const tabs = [
+  6 |   { href: "/",           label: "Overview" },
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/scan/page.tsx:2:1
+Module not found: Can't resolve '@/components/ScanWorkflow'
+  1 | import { Card } from "@/components/Card";
+> 2 | import { ScanWorkflow } from "@/components/ScanWorkflow";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { prisma } from "@/lib/prisma";
+  4 |
+  5 | export default async function ScanPage({
+
+Import map: aliased to relative './src/components/ScanWorkflow' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/events/new/page.tsx:2:1
+Module not found: Can't resolve '@/components/NewEventRequestForm'
+  1 | import { Card } from "@/components/Card";
+> 2 | import { NewEventRequestForm } from "@/components/NewEventRequestForm";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { prisma } from "@/lib/prisma";
+  4 |
+  5 | export default async function NewEventRequestPage() {
+
+Import map: aliased to relative './src/components/NewEventRequestForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/actions.ts:6:1
+Module not found: Can't resolve '@/lib/anomaly'
+  4 | import { recordScan } from "@/lib/scan";
+  5 | import { publish } from "@/lib/events-bus";
+> 6 | import { runAnomalySweep } from "@/lib/anomaly";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { revalidatePath } from "next/cache";
+  8 |
+  9 | // ─── Event Requests ──────────────────────────────────────────────────────
+
+Import map: aliased to relative './src/lib/anomaly' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/events/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  1 | import Link from "next/link";
+  2 | import { LiveDot } from "./LiveDot";
+> 3 | import { AlertsBell } from "./AlertsBell";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const tabs = [
+  6 |   { href: "/",           label: "Overview" },
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/scan/page.tsx:2:1
+Module not found: Can't resolve '@/components/ScanWorkflow'
+  1 | import { Card } from "@/components/Card";
+> 2 | import { ScanWorkflow } from "@/components/ScanWorkflow";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { prisma } from "@/lib/prisma";
+  4 |
+  5 | export default async function ScanPage({
+
+Import map: aliased to relative './src/components/ScanWorkflow' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/events/new/page.tsx:2:1
+Module not found: Can't resolve '@/components/NewEventRequestForm'
+  1 | import { Card } from "@/components/Card";
+> 2 | import { NewEventRequestForm } from "@/components/NewEventRequestForm";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { prisma } from "@/lib/prisma";
+  4 |
+  5 | export default async function NewEventRequestPage() {
+
+Import map: aliased to relative './src/components/NewEventRequestForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/actions.ts:6:1
+Module not found: Can't resolve '@/lib/anomaly'
+  4 | import { recordScan } from "@/lib/scan";
+  5 | import { publish } from "@/lib/events-bus";
+> 6 | import { runAnomalySweep } from "@/lib/anomaly";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { revalidatePath } from "next/cache";
+  8 |
+  9 | // ─── Event Requests ──────────────────────────────────────────────────────
+
+Import map: aliased to relative './src/lib/anomaly' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/events/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/components/Nav.tsx:3:1
+Module not found: Can't resolve './AlertsBell'
+  1 | import Link from "next/link";
+  2 | import { LiveDot } from "./LiveDot";
+> 3 | import { AlertsBell } from "./AlertsBell";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const tabs = [
+  6 |   { href: "/",           label: "Overview" },
+
+Import trace:
+  Server Component:
+    ./src/components/Nav.tsx
+    ./src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/scan/page.tsx:2:1
+Module not found: Can't resolve '@/components/ScanWorkflow'
+  1 | import { Card } from "@/components/Card";
+> 2 | import { ScanWorkflow } from "@/components/ScanWorkflow";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { prisma } from "@/lib/prisma";
+  4 |
+  5 | export default async function ScanPage({
+
+Import map: aliased to relative './src/components/ScanWorkflow' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/events/new/page.tsx:2:1
+Module not found: Can't resolve '@/components/NewEventRequestForm'
+  1 | import { Card } from "@/components/Card";
+> 2 | import { NewEventRequestForm } from "@/components/NewEventRequestForm";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { prisma } from "@/lib/prisma";
+  4 |
+  5 | export default async function NewEventRequestPage() {
+
+Import map: aliased to relative './src/components/NewEventRequestForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/actions.ts:6:1
+Module not found: Can't resolve '@/lib/anomaly'
+  4 | import { recordScan } from "@/lib/scan";
+  5 | import { publish } from "@/lib/events-bus";
+> 6 | import { runAnomalySweep } from "@/lib/anomaly";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { revalidatePath } from "next/cache";
+  8 |
+  9 | // ─── Event Requests ──────────────────────────────────────────────────────
+
+Import map: aliased to relative './src/lib/anomaly' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/events/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+ GET /alerts 500 in 470ms (next.js: 320ms, application-code: 150ms)
+ GET /alerts 500 in 214ms (next.js: 125ms, application-code: 89ms)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /alerts 500 in 751ms (next.js: 383ms, application-code: 368ms)
+ GET /api/alerts/count 500 in 742ms (next.js: 479ms, application-code: 263ms)
+ GET /api/alerts/count 500 in 742ms (next.js: 479ms, application-code: 263ms)
+ GET /alerts 500 in 636ms (next.js: 512ms, application-code: 124ms)
+ GET /api/stream 200 in 18.9min (next.js: 97ms, application-code: 18.9min)
+ GET /api/stream 200 in 18.9min (next.js: 26ms, application-code: 18.9min)
+[browser] Uncaught Error: ./src/app/scan/page.tsx:2:1
+Module not found: Can't resolve '@/components/ScanWorkflow'
+  1 | import { Card } from "@/components/Card";
+> 2 | import { ScanWorkflow } from "@/components/ScanWorkflow";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { prisma } from "@/lib/prisma";
+  4 |
+  5 | export default async function ScanPage({
+
+Import map: aliased to relative './src/components/ScanWorkflow' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/app/scan/page.tsx:2:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./src/app/scan/page.tsx:2:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./src/app/scan/page.tsx:2:1
+Module not found: Can't resolve '@/components/ScanWorkflow'
+  1 | import { Card } from "@/components/Card";
+> 2 | import { ScanWorkflow } from "@/components/ScanWorkflow";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { prisma } from "@/lib/prisma";
+  4 |
+  5 | export default async function ScanPage({
+
+Import map: aliased to relative './src/components/ScanWorkflow' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/events/new/page.tsx:2:1
+Module not found: Can't resolve '@/components/NewEventRequestForm'
+  1 | import { Card } from "@/components/Card";
+> 2 | import { NewEventRequestForm } from "@/components/NewEventRequestForm";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { prisma } from "@/lib/prisma";
+  4 |
+  5 | export default async function NewEventRequestPage() {
+
+Import map: aliased to relative './src/components/NewEventRequestForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/events/[id]/page.tsx:8:1
+Export checkoutAllocation doesn't exist in target module
+   6 | import { prisma } from "@/lib/prisma";
+   7 | import { fmtDate, ago } from "@/lib/utils";
+>  8 | import {
+     | ^^^^^^^
+>  9 |   approveEventRequest,
+     | ^^^^^^^^^^^^^^^^^^^^^^
+> 10 |   rejectEventRequest,
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 11 |   checkoutAllocation,
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 12 |   returnAllocation,
+     | ^^^^^^^^^^^^^^^^^^^
+> 13 | } from "@/app/actions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  14 | import type { AssetStatus } from "@/lib/types";
+  15 |
+  16 | export default async function EventRequestPage({
+
+The export checkoutAllocation was not found in module [project]/src/app/actions.ts [app-rsc] (ecmascript).
+Did you mean to import createEventRequest?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist. 
+[browser] ./src/app/events/[id]/page.tsx:8:1
+Export returnAllocation doesn't exist in target module
+   6 | import { prisma } from "@/lib/prisma";
+   7 | import { fmtDate, ago } from "@/lib/utils";
+>  8 | import {
+     | ^^^^^^^
+>  9 |   approveEventRequest,
+     | ^^^^^^^^^^^^^^^^^^^^^^
+> 10 |   rejectEventRequest,
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 11 |   checkoutAllocation,
+     | ^^^^^^^^^^^^^^^^^^^^^
+> 12 |   returnAllocation,
+     | ^^^^^^^^^^^^^^^^^^^
+> 13 | } from "@/app/actions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  14 | import type { AssetStatus } from "@/lib/types";
+  15 |
+  16 | export default async function EventRequestPage({
+
+The export returnAllocation was not found in module [project]/src/app/actions.ts [app-rsc] (ecmascript).
+Did you mean to import returnEventToStorage?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist. 

@@ -1,0 +1,151 @@
+// QTrack — event-sourced asset/furniture management
+// SQLite for hackathon speed; all status fields as strings backed by TS unions
+// (Prisma enums on SQLite have historical quirks — strings are safer for demo).
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Location {
+  id        String  @id @default(cuid())
+  name      String
+  type      String  // ROOM | STORAGE | EVENT_SPACE | GATEWAY | OUTSIDE
+  building  String
+  floor     Int     @default(1)
+  // floor-plan SVG rectangle coordinates (0..1000 grid)
+  x         Float?
+  y         Float?
+  width     Float?
+  height    Float?
+  capacity  Int?
+
+  currentAssets Asset[]      @relation("CurrentLocation")
+  homeAssets    Asset[]      @relation("HomeLocation")
+  events        AssetEvent[]
+  requests      EventRequest[]
+}
+
+model Asset {
+  id                String   @id @default(cuid())
+  serialNo          String   @unique // QR value: QSTP-CHR-0001
+  category          String           // "Office Chair", "Conference Table"
+  subcategory       String?
+  brand             String?
+  model             String?
+  purchaseDate      DateTime?
+  purchasePrice     Float?
+  isFixed           Boolean  @default(false)
+  status            String   @default("IN_STORAGE")
+  condition         String   @default("GOOD")
+
+  currentLocationId String?
+  currentLocation   Location? @relation("CurrentLocation", fields: [currentLocationId], references: [id])
+  homeLocationId   String?
+  homeLocation     Location?  @relation("HomeLocation", fields: [homeLocationId], references: [id])
+
+  responsibleUserId String?
+  responsibleUser   User?    @relation(fields: [responsibleUserId], references: [id])
+
+  notes             String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  events            AssetEvent[]
+  allocations       EventAllocation[]
+  alerts            Alert[]
+
+  @@index([status])
+  @@index([category])
+  @@index([currentLocationId])
+}
+
+model AssetEvent {
+  id              String   @id @default(cuid())
+  assetId         String
+  asset           Asset    @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  eventType       String   // SCAN | CHECKOUT | CHECKIN | GATEWAY_PASS | CONDITION_REPORT | STATUS_CHANGE | MOVED | ADOPTED | DISPOSAL
+  locationId      String?
+  location        Location? @relation(fields: [locationId], references: [id])
+  actorId         String?
+  actor           User?    @relation(fields: [actorId], references: [id])
+  conditionAfter  String?
+  statusAfter     String?
+  source          String   // QR_SCAN | RFID_GATEWAY | MANUAL | SYSTEM
+  eventRequestId  String?
+  eventRequest    EventRequest? @relation(fields: [eventRequestId], references: [id])
+  notes           String?
+  createdAt       DateTime @default(now())
+
+  @@index([assetId, createdAt])
+  @@index([createdAt])
+}
+
+model User {
+  id         String  @id @default(cuid())
+  name       String
+  email      String  @unique
+  role       String  // FACILITIES | EVENTS | FINANCE | WORKER | ADMIN
+  department String?
+
+  assets     Asset[]
+  events     AssetEvent[]
+  requested  EventRequest[] @relation("Requester")
+  approved   EventRequest[] @relation("Approver")
+}
+
+model EventRequest {
+  id           String   @id @default(cuid())
+  title        String
+  description  String?
+  requesterId  String
+  requester    User     @relation("Requester", fields: [requesterId], references: [id])
+  approverId   String?
+  approver     User?    @relation("Approver", fields: [approverId], references: [id])
+  status       String   @default("PENDING") // PENDING | APPROVED | REJECTED | IN_PROGRESS | COMPLETED | OVERDUE
+  startsAt     DateTime
+  endsAt       DateTime
+  locationId   String?
+  location     Location? @relation(fields: [locationId], references: [id])
+  createdAt    DateTime @default(now())
+
+  allocations  EventAllocation[]
+  assetEvents  AssetEvent[]
+  alerts       Alert[]
+
+  @@index([status])
+}
+
+model EventAllocation {
+  id                String   @id @default(cuid())
+  eventRequestId    String
+  eventRequest      EventRequest @relation(fields: [eventRequestId], references: [id], onDelete: Cascade)
+  assetId           String
+  asset             Asset    @relation(fields: [assetId], references: [id])
+  status            String   @default("ALLOCATED") // ALLOCATED | CHECKED_OUT | RETURNED | MISSING
+  checkedOutAt      DateTime?
+  returnedAt        DateTime?
+  returnedCondition String?
+
+  @@unique([eventRequestId, assetId])
+  @@index([status])
+}
+
+model Alert {
+  id              String   @id @default(cuid())
+  type            String   // MISSED_RETURN | FIXED_MOVED | CONDITION_REGRESSION | UNSCANNED_TIMEOUT | MISSING_AFTER_EVENT | WRONG_LOCATION
+  severity        String   @default("WARNING") // INFO | WARNING | CRITICAL
+  message         String
+  assetId         String?
+  asset           Asset?   @relation(fields: [assetId], references: [id])
+  eventRequestId  String?
+  eventRequest    EventRequest? @relation(fields: [eventRequestId], references: [id])
+  acknowledged    Boolean  @default(false)
+  createdAt       DateTime @default(now())
+
+  @@index([acknowledged, createdAt])
+}
